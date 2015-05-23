@@ -12,7 +12,7 @@ $ npm install --global display-shortcuts
 ## Usage
 
 ```
-> display-shortcuts
+❯ display-shortcuts
 ```
 Displays this:
 
