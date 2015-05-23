@@ -1,0 +1,41 @@
+{
+  "name": "display-shortcuts",
+  "version": "1.0.0",
+  "description": "Display command line keyboard shortcuts in the terminal.",
+  "license": "MIT",
+  "repository": "distilledhype/commandcuts",
+  "author": {
+    "name": "Kahlil Lechelt",
+    "email": "hello@kahlil.info",
+    "url": "http://kahlil.info"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "shortcuts.json"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "commandcuts": "cli.js",
+    "comcuts": "cli.js"
+  },
+  "keywords": [
+    "keyboard shortcuts",
+    "cli",
+    "osx",
+    "documentation"
+  ],
+  "dependencies": {
+    "split-text": "^1.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^1.0.0",
+    "mocha": "^2.2.5"
+  }
+}
