@@ -16,8 +16,7 @@ display-shortcuts
 ```
 Displays this:
 
-![A list of command line keyboard shortcuts]()
-
+![A list of command line keyboard shortcuts](https://cdn.rawgit.com/distilledhype/display-shortcuts/master/screenshot.png)
 
 ## License
 
