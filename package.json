@@ -1,9 +1,9 @@
 {
   "name": "display-shortcuts",
   "version": "1.0.0",
-  "description": "Display command line keyboard shortcuts in the terminal.",
+  "description": "Displays a list of keyboard shortcuts you can use on the command line and their descriptions in your terminal.",
   "license": "MIT",
-  "repository": "distilledhype/commandcuts",
+  "repository": "distilledhype/display-shortcuts",
   "author": {
     "name": "Kahlil Lechelt",
     "email": "hello@kahlil.info",
@@ -22,11 +22,10 @@
   ],
   "preferGlobal": true,
   "bin": {
-    "commandcuts": "cli.js",
-    "comcuts": "cli.js"
+    "display-shortcuts": "cli.js"
   },
   "keywords": [
-    "keyboard shortcuts",
+    "display keyboard shortcuts",
     "cli",
     "osx",
     "documentation"
