@@ -1,6 +1,6 @@
 {
   "name": "display-shortcuts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Displays a list of keyboard shortcuts you can use on the command line and their descriptions in your terminal.",
   "license": "MIT",
   "repository": "distilledhype/display-shortcuts",
