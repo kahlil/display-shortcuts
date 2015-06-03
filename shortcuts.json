@@ -13,5 +13,5 @@
   { "⌃ + T": "Swap the last two characters before the cursor." },
   { "ESC + F": "Move to the beginning of the next word." },
   { "ESC + B": "Move to the beginning of the current or previous word." },
-	{ "ESC + T": "Swap the last two words before the cursor." }
+  { "ESC + T": "Swap the last two words before the cursor." }
 ]
