@@ -19,6 +19,15 @@ Displays this:
 
 These shortcuts should all work on Mac in Terminal and zsh without any configuration.
 
+## Extend
+To extend the existing shortcuts simply create `~/.display-shortcuts/shortcuts.json` containing your missing shortcuts.
+
+```
+[
+  { "shortcut": "description" }
+]
+
+```
 ## License
 
 MIT © [Kahlil Lechelt](https://github.com/distilledhype)
