@@ -1,9 +1,5 @@
 #! /usr/bin/env node
 
-// TODO's:
-// - write test for add/overwrite shortcuts
-// - `assignShortcuts()` add error handling check argument types
-
 var fs = require('fs');
 var output = require('./');
 var assignShortcuts = require('./lib/assignShortcuts');
