@@ -4,11 +4,8 @@
   "description": "Displays a list of keyboard shortcuts you can use on the command line and their descriptions in your terminal.",
   "license": "MIT",
   "repository": "distilledhype/display-shortcuts",
-  "author": {
-    "name": "Kahlil Lechelt",
-    "email": "hello@kahlil.info",
-    "url": "http://kahlil.info"
-  },
+  "author": "Kahlil Lechelt <hello@kahlil.info> (http://kahlil.info)",
+  "contributor": ["André Ruffert"],
   "engines": {
     "node": ">=0.10.0"
   },
