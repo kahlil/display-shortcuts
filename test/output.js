@@ -15,6 +15,8 @@ var result = [
   ''
 ]
 
-it('should be an array of lines ready to log to console', function () {
-  assert.deepEqual(prepareOutput(obj, true), result);
+describe('output()', function() {
+  it('should be an array of lines ready to log to console', function () {
+    assert.deepEqual(prepareOutput(obj, true), result);
+  });
 });
