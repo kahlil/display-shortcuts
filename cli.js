@@ -6,6 +6,7 @@
 
 var fs = require('fs');
 var output = require('./');
+var assignShortcuts = require('./lib/assignShortcuts');
 var pkg = require('./package.json');
 var shortcuts = require('./shortcuts.json');
 
@@ -18,30 +19,3 @@ fs.readFile(process.env.HOME + '/.' + pkg.name + '/shortcuts.json', { encoding: 
     console.log(line);
   });
 });
-
-/**
- * Add/overwrite shortcuts
- *
- * @param {Array} ref Default shortcuts
- * @param {Array} array New shortcuts to add/overwrite
- * @return {Array} Extended shortcuts
- */
-function assignShortcuts(ref, shortcuts) {
-  var refKeys = ref.map(function(obj) { return Object.keys(obj)[0]; });
-  var key, index;
-
-  shortcuts.map(function(obj) {
-    key = Object.keys(obj)[0];
-    index = refKeys.indexOf(key);
-
-    if (index === -1) {
-      // Add new shortcut
-      ref.push(obj);
-    } else {
-      // Overwrite existing shortcut
-      ref[index] = obj;
-    }
-  });
-
-  return ref;
-}
