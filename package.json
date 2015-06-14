@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": "distilledhype/display-shortcuts",
   "author": "Kahlil Lechelt <hello@kahlil.info> (http://kahlil.info)",
-  "contributor": ["André Ruffert"],
+  "contributor": ["André Ruffert (http://andreruffert.com)"],
   "engines": {
     "node": ">=0.10.0"
   },
