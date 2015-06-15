@@ -1,11 +1,13 @@
 {
   "name": "display-shortcuts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Displays a list of keyboard shortcuts you can use on the command line and their descriptions in your terminal.",
   "license": "MIT",
   "repository": "distilledhype/display-shortcuts",
   "author": "Kahlil Lechelt <hello@kahlil.info> (http://kahlil.info)",
-  "contributors": ["André Ruffert (http://andreruffert.com)"],
+  "contributors": [
+    "André Ruffert (http://andreruffert.com)"
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
