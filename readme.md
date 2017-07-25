@@ -1,5 +1,7 @@
 # display-shortcuts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kahlil/display-shortcuts.svg)](https://greenkeeper.io/)
+
 > Displays a list of keyboard shortcuts you can use on the command line and their descriptions in your terminal.
 
 ## Install
